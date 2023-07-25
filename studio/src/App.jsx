@@ -7,7 +7,7 @@ import { faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 import {
   faMapMarkerAlt,
   faUser,
-  faThLarge,
+  faUsers,
   faBook,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -73,10 +73,13 @@ function App() {
           <FontAwesomeIcon icon={faMapMarkerAlt} />
         </button>
         <button className="nav-button">
-          <FontAwesomeIcon icon={faUser} />
+          <FontAwesomeIcon icon={faUsers} />
         </button>
         <button className="nav-button">
           <FontAwesomeIcon icon={faBook} />
+        </button>
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faUser} />
         </button>
       </nav>
     </>
