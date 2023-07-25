@@ -35,7 +35,7 @@ function App() {
       </div>
       <div id="content">
         <div id="spline">
-          <Spline scene="https://prod.spline.design/zDTdTtLm0GVaN2GR/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/zDTdTtLm0GVaN2GR/scene.splinecode" />
         </div>
         <div id="text">
           <h1 id="heading">Angklung</h1>
