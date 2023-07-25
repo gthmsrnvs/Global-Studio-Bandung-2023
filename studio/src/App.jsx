@@ -33,16 +33,21 @@ function App() {
           </p>
         </div>
       </div>
-      <div id="spline">
-        <Spline scene="https://prod.spline.design/zDTdTtLm0GVaN2GR/scene.splinecode" />
+      <div id="content">
+        <div id="spline">
+          <Spline scene="https://prod.spline.design/zDTdTtLm0GVaN2GR/scene.splinecode" />
+        </div>
+        <div id="text">
+          <h1 id="heading">Angklung</h1>
+          <p>
+            Angklung adalah alat musik bambu yang telah ada sejak berabad-abad
+            lalu dan merupakan bagian penting dari budaya Sunda. Alat musik ini
+            dimainkan dengan cara digoyangkan untuk menghasilkan suara dan dapat
+            dimainkan dalam berbagai genre, termasuk musik tradisional Sunda,
+            jazz, dan pop.
+          </p>
+        </div>
       </div>
-      <h1 id="heading">Angklung</h1>
-      <p>
-        Angklung adalah alat musik bambu yang telah ada sejak berabad-abad lalu
-        dan merupakan bagian penting dari budaya Sunda. Alat musik ini dimainkan
-        dengan cara digoyangkan untuk menghasilkan suara dan dapat dimainkan
-        dalam berbagai genre, termasuk musik tradisional Sunda, jazz, dan pop.
-      </p>
     </>
   );
 }

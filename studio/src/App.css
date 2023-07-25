@@ -18,13 +18,18 @@ body {
   overflow: hidden; 
 }
 
+#content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100px); /* Adjust according to your needs */
+}
+
 #heading{
   font-size: x-large;
 }
 
 #spline{
-  width: auto;
-  height: auto;
+  flex-grow: 1;
 }
 
 .modal {
