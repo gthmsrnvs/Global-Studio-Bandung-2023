@@ -18,6 +18,10 @@ body {
   overflow: hidden; 
 }
 
+#heading{
+  font-size: x-large;
+}
+
 #spline{
   width: auto;
   height: auto;
