@@ -25,10 +25,15 @@ function App() {
           <button id="close" className="close">
             &times;
           </button>
-          <p>Gunakan dua jari untuk melakukan zoom</p>
+          <p>
+            Selamat datang di aplikasi Seni! Di sini Anda akan belajar lebih
+            banyak tentang karya seni tradisional yang ada di sekitar Anda.
+            Gunakan dua jari untuk memperbesar. Setiap pemindaian kode QR akan
+            membuka lokasi
+          </p>
         </div>
       </div>
-      <div>
+      <div id="spline">
         <Spline scene="https://prod.spline.design/zDTdTtLm0GVaN2GR/scene.splinecode" />
       </div>
       <h1>Angklung</h1>
