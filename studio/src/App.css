@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  scroll-snap-stop: always;
 }
 
 /* CSS styles that apply to all screen sizes go outside any media queries */
@@ -16,7 +17,6 @@ body {
   align-items: center;
   justify-content: center;
   background: radial-gradient(circle at center, #ffe6ea, #d1f2eb);
-  overflow: hidden;
 }
 
 #content {
