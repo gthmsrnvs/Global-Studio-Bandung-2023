@@ -4,6 +4,11 @@ import Spline from "@splinetool/react-spline";
 import soundFile from "./assets/sdo.mp3";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVolumeUp } from "@fortawesome/free-solid-svg-icons";
+import {
+  faMapMarkerAlt,
+  faUser,
+  faThLarge,
+} from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   const audio = new Audio(soundFile);
@@ -62,6 +67,17 @@ function App() {
           </p>
         </div>
       </div>
+      <nav className="navbar">
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faMapMarkerAlt} />
+        </button>
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faUser} />
+        </button>
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faThLarge} />
+        </button>
+      </nav>
     </>
   );
 }

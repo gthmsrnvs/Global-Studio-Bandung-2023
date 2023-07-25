@@ -19,6 +19,30 @@ body {
   background: radial-gradient(circle at center, #ffe6ea, #d1f2eb);
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px; /* slightly rounded corners */
+  padding: 10px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333; /* change to match your design */
+  font-size: 16px;
+  border: none;
+  background: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* shadow */
+}
+
 #content {
   display: flex;
   flex-direction: column;
