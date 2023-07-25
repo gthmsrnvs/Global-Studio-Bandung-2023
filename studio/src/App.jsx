@@ -8,6 +8,7 @@ import {
   faMapMarkerAlt,
   faUser,
   faThLarge,
+  faBook,
 } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
@@ -75,7 +76,7 @@ function App() {
           <FontAwesomeIcon icon={faUser} />
         </button>
         <button className="nav-button">
-          <FontAwesomeIcon icon={faThLarge} />
+          <FontAwesomeIcon icon={faBook} />
         </button>
       </nav>
     </>
