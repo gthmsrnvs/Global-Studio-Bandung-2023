@@ -13,6 +13,7 @@ body {
   justify-content: center;
   font-family: 'Roboto', sans-serif;
   font-size: 2vw;
+  overflow: hidden;
   background: radial-gradient(circle at center, #ffe6ea, #d1f2eb);
 }
 
