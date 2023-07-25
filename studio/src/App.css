@@ -11,6 +11,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
   background: radial-gradient(circle at center, #ffe6ea, #d1f2eb);
 }
 
