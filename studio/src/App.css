@@ -21,7 +21,7 @@ body {
 #content {
   display: flex;
   flex-direction: column;
-  height: max-content;
+  height: calc(100vh - 100px); /* Adjust according to your needs */
 }
 
 #heading{
