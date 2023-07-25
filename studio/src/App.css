@@ -15,7 +15,6 @@ body {
   align-items: center;
   justify-content: center;
   background: radial-gradient(circle at center, #ffe6ea, #d1f2eb);
-  overflow: hidden; 
 }
 
 #content {
