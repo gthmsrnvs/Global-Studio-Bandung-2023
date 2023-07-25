@@ -12,7 +12,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Roboto', sans-serif;
-  font-size: 2vw;
+  font-size: 4vw;
+  color: #000;
   overflow: hidden;
   background: radial-gradient(circle at center, #ffe6ea, #d1f2eb);
 }
