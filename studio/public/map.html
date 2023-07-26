@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-omnivore/0.3.4/leaflet-omnivore.min.js"></script>
+  </head>
+  <body>
+    <div id="map" style="width: 100%; height: 100vh"></div>
+    <script>
+      // Initialize the map
+      var map = L.map("map").setView([-6.88, 107.6105], 15);
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+        maxZoom: 19,
+      }).addTo(map);
+
+      // Load the CSV file
+      omnivore
+        .csv("./src/assets/lebak.csv")
+        .on("ready", function (layer) {
+          // This function will be called when the CSV has been loaded
+          this.eachLayer(function (marker) {
+            // For each point in the CSV, add a marker to the map
+            L.marker([marker.getLatLng().lat, marker.getLatLng().lng]).addTo(
+              map
+            );
+          });
+        })
+        .addTo(map);
+    </script>
+  </body>
+</html>

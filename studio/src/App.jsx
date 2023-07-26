@@ -69,7 +69,10 @@ function App() {
         </div>
       </div>
       <nav className="navbar">
-        <button className="nav-button">
+        <button
+          className="nav-button"
+          onClick={() => (window.location.href = "/map.html")}
+        >
           <FontAwesomeIcon icon={faMapMarkerAlt} />
         </button>
         <button className="nav-button">
