@@ -35,6 +35,21 @@ function App() {
 
   return (
     <>
+      <nav className="navbar">
+        <a href="/map.html" className="nav-button">  {/* Change this button to an anchor tag */}
+          <FontAwesomeIcon icon={faMapMarkerAlt} />
+        </a>
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faUsers} />
+        </button>
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faBook} />
+        </button>
+        <button className="nav-button">
+          <FontAwesomeIcon icon={faUser} />
+        </button>
+      </nav>
+
       <div id="myModal" className="modal">
         <div className="modal-content">
           <button id="close" className="close">
@@ -68,23 +83,6 @@ function App() {
           </p>
         </div>
       </div>
-      <nav className="navbar">
-        <button
-          className="nav-button"
-          onClick={() => (window.location.href = "/map.html")}
-        >
-          <FontAwesomeIcon icon={faMapMarkerAlt} />
-        </button>
-        <button className="nav-button">
-          <FontAwesomeIcon icon={faUsers} />
-        </button>
-        <button className="nav-button">
-          <FontAwesomeIcon icon={faBook} />
-        </button>
-        <button className="nav-button">
-          <FontAwesomeIcon icon={faUser} />
-        </button>
-      </nav>
     </>
   );
 }
