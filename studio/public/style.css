@@ -1,0 +1,26 @@
+.event-card {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.event-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.event-info {
+  padding: 20px;
+}
+
+.event-section {
+  margin-top: 50px;
+}
+
+.event-section h1 {
+  text-align: center;
+}

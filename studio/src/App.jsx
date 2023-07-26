@@ -36,18 +36,18 @@ function App() {
   return (
     <>
       <nav className="navbar">
-        <a href="/map.html" className="nav-button">  {/* Change this button to an anchor tag */}
+        <a href="/map.html" className="nav-button">
           <FontAwesomeIcon icon={faMapMarkerAlt} />
         </a>
-        <button className="nav-button">
-          <FontAwesomeIcon icon={faUsers} />
-        </button>
-        <button className="nav-button">
-          <FontAwesomeIcon icon={faBook} />
-        </button>
-        <button className="nav-button">
+        <a href="/events.html" className="nav-button">
           <FontAwesomeIcon icon={faUser} />
-        </button>
+        </a>
+        <a href="/home.html" className="nav-button">
+          <FontAwesomeIcon icon={faBook} />
+        </a>
+        <a href="/profile.html" className="nav-button">
+          <FontAwesomeIcon icon={faUsers} />
+        </a>
       </nav>
 
       <div id="myModal" className="modal">
