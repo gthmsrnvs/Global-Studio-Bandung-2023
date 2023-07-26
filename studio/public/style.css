@@ -5,12 +5,14 @@
   margin: 20px;
   display: flex;
   align-items: center;
+  background-color: aliceblue;
 }
 
 .event-card img {
   width: 150px;
   height: 150px;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 .event-info {
